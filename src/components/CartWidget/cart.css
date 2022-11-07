@@ -1,0 +1,14 @@
+.pCarrito{
+    font-family: 'Prompt', sans-serif ;
+    font-weight: 600 !important;
+    font-size: 11px;
+    flex-direction: row;
+    color: #03a9f4;
+    margin-left: -12px;
+    margin-top: 0px !important;
+  }
+#icono-carrito{
+    left: 85% !important;
+    position: absolute;
+    margin-top: 10px;
+}
