@@ -25,8 +25,8 @@ function Item({ product }) {
         <img src={product.thumbnail} alt="Product img" />
       </div>
       <div className="card-detail">
-        <h2>{product.title}</h2>
-        <p>{product.description}</p>
+        <h2 className="titulo-card">{product.title}</h2>
+        <p className="detalle-card">{product.detail}</p>
         <h4 className="priceTag">$ {product.price}</h4>
       </div>
       <Link to={urlDetail}>

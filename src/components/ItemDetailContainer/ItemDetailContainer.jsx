@@ -22,8 +22,8 @@ function ItemDetailContainer() {
         <img src={product.thumbnail} alt="Product img" />
       </div>
       <div className="card-detail_detail">
-        <h2>{product.title}</h2>
-        <p>{product.description}</p>
+        <h2 className="producto-detalle">{product.title}</h2>
+        <p className="producto-desc">{product.description}</p>
         <h4 className="priceTag">$ {product.price}</h4>
       </div>
       {/* <ItemCount stock={product.stock}/> */}
